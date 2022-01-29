@@ -1,0 +1,64 @@
+.LoginPage {
+  background-image: url(../../Images/welcomeImg.jpeg);
+  height: 100vh;
+  width: 100%;
+  background-size: 100% 100%;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.LoginPage_container {
+  padding: 20px;
+  border-radius: 0 0 10px 10px;
+  background-color: #fff;
+  width: 400px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.LoginPage_container_header {
+  font-size: 12px;
+  text-align: right;
+  padding: 5px 10px;
+  border-radius: 10px 10px 0 0;
+  width: 400px;
+  background-color: rgb(255, 179, 117);
+}
+.LoginPage_credentials {
+  margin: 35px 20px;
+  width: 200px;
+}
+.LoginPage_credentials input {
+  width: 100%;
+}
+.loginto {
+  font-family: sans-serif;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.644);
+}
+.foodapp {
+  font-family: sans-serif;
+  color: rgb(196, 90, 4);
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+.LoginPage_credentials input {
+  border-radius: 5px;
+  border: solid rgba(0, 0, 0, 0.404) 1px;
+  padding: 5px 10px;
+  margin: 5px 0;
+}
+.login_btn {
+  width: 100%;
+  background-color: rgb(196, 90, 4);
+  padding: 5px;
+  border: none;
+  color: white;
+}
+.login_btn:hover {
+  background-color: rgb(216, 116, 34);
+  cursor: pointer;
+}

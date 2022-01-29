@@ -1,0 +1,32 @@
+.welcomePage {
+  background-image: url(../../Images/welcomeImg.jpeg);
+  height: 100vh;
+  width: 100%;
+  background-size: 100% 100%;
+  background-position: center;
+}
+.welcomePage_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.555);
+  color: white;
+}
+.welcomePage_container h1,
+h3 {
+  font-family: sans-serif;
+}
+.WP_link {
+  text-decoration: underline;
+  color: white;
+}
+.welcomePage_container h1 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.welcomePage_container h3 {
+  font-style: italic;
+}
